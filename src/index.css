@@ -1,0 +1,50 @@
+
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background: lightgrey;
+}
+
+.on {
+  background:yellow;
+}
+
+.box:hover { 
+  background:red
+}
+
+.center {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.grid {
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+}
+.btn-toolbar{
+  margin: 4px;
+  padding-bottom: 30px;
+}
+
+h1, h2, h3, h4 {
+
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
